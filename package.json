@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "init:client": "cd solid-study & npm install",
+        "init:server": "cd server & npm install",
+        "init": "concurrently \"npm run init:server\" \"npm run init:client\""
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "dotenv": "^16.4.5"
+    }
+}
