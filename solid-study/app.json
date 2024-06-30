@@ -32,9 +32,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "expo": {
-      "entryPoint": "app/App.tsx"
     }
   }
 }
